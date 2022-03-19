@@ -2,3 +2,6 @@
 - This is another header, though it seems native links don't work. HMM! [testing](./pages/Test-Page.md) maybe it not happy WHO KNOWS.
 - Now I'm messing about in my IDE. Will this change be recorded?
 - More dumb changes [test](./pages/contents.md)
+- # This is a title
+  --- This is a distinct section I'm making. It will be a portion of the page. Wowzers.  
+  Another line.

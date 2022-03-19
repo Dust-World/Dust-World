@@ -102,7 +102,7 @@
  :ui/show-command-doc? true
 
  ;; Whether to show empty bullets for non-document mode (the default mode)
- :ui/show-empty-bullets? false
+ :ui/show-empty-bullets? true
 
  ;; The app will show those queries in today's journal page,
  ;; the "NOW" query asks the tasks which need to be finished "now",
@@ -173,6 +173,10 @@
 
  :ref/linked-references-collapsed-threshold 50
  :favorites []
+ :ui/show-brackets? false
+ :feature/enable-timetracking? false
+ :feature/enable-journals? false
+ :default-home {:page "README"}
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
