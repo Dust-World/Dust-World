@@ -1,0 +1,1 @@
+<span class="mdc-typography--body1"><slot/></span>

@@ -1,6 +1,8 @@
 // svelte.config.js
 import adapter from '@sveltejs/adapter-static';
+import preprocess from 'svelte-preprocess'
 import { mdsvex } from 'mdsvex'
+import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 const dev = process.env.NODE_ENV === 'development';
 
@@ -23,9 +25,21 @@ export default {
 			default: true
 		}
 	},
+	plugins: [
+		svelte({
+			experimental: {
+				useVitePreprocess: true
+			}
+		})
+	],
 	preprocess: [
+		preprocess({}),
 		mdsvex({
-			extensions: ['.md', '.svx']
+			extensions: ['.md', '.svx', '.ts'],
+			layout: {
+				soloPage: "./src/_layouts/soloPageLayout.svelte",
+				_: "./src/_layouts/baseLayout.svelte"
+			}
 		})
 	]
 };

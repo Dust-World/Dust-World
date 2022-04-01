@@ -1,0 +1,1 @@
+<div class="mdc-typography--headline2"><slot/></div>

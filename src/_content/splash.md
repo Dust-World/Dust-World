@@ -1,2 +1,2 @@
-# Welcome to Dust World
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel nulla elementum, luctus mi ut, consequat metus. Ut eleifend condimentum nulla id blandit. Quisque feugiat leo eget magna rhoncus posuere. Sed eleifend enim quis orci gravida, quis ornare tellus congue. Mauris felis sapien, hendrerit quis ultrices id, vulputate eu magna. Mauris feugiat dui non est cursus commodo. Cras auctor nisi vitae est ornare consequat. Duis nunc lacus, convallis eget lacus eleifend, lobortis congue quam. Vivamus ut dolor purus.
+# Dust World
+A fantasy RPG setting teetering on the edge of ecological apocalypse.

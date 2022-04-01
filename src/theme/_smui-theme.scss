@@ -1,0 +1,41 @@
+@use 'sass:color';
+
+@use '@material/theme/color-palette';
+
+// Svelte Colors!
+@use '@material/theme/index' as theme with (
+  $primary: #b35c43,
+  $secondary: #978f93,
+  $surface: #ece7df,
+  $background: #ccc3c1,
+  $error: color-palette.$red-900
+);
+
+@use '@material/typography/mdc-typography';
+
+html,
+body {
+  background-color: theme.$background;
+  color: theme.$on-surface;
+  font-family: Roboto;
+}
+
+a {
+  color: #473431;
+}
+a:visited {
+  color: color.scale(#473431, $lightness: -35%);
+}
+
+button:disabled {
+  visibility: hidden
+}
+
+button.round-button {
+  border-radius:100%;
+  background-color: theme.$surface
+}
+
+.smui-paper {
+  margin: 3%;
+}
