@@ -1,45 +1,48 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b677115a.js",
+    "file": "start-948e32f4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-06a89145.js"
+      "_vendor-8432d81c.js",
+      "_singletons-d1fb5791.js"
     ],
     "dynamicImports": [
       ".svelte-kit/runtime/components/layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
-      "src/routes/species/playable.md",
-      "src/routes/species/main.md"
+      "src/routes/bestiary/index.md",
+      "src/routes/bestiary/monstrous_intelligences.md",
+      "src/routes/bestiary/playable.md"
     ]
   },
   ".svelte-kit/runtime/components/layout.svelte": {
-    "file": "layout.svelte-ed11c45c.js",
+    "file": "layout.svelte-8ee312c4.js",
     "src": ".svelte-kit/runtime/components/layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-06a89145.js"
+      "_vendor-8432d81c.js"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-81f6cfc3.js",
+    "file": "error.svelte-6b9b18cd.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-06a89145.js"
+      "_vendor-8432d81c.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7539251c.js",
+    "file": "pages/index.svelte-134b8efb.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-06a89145.js",
-      "_h2-52762e8f.js"
+      "_vendor-8432d81c.js",
+      "_h2-695eb112.js",
+      "_singletons-d1fb5791.js"
     ],
     "css": [
       "assets/pages/index.svelte-7b18da2d.css"
@@ -48,42 +51,60 @@
       "assets/splashBackground-1d930343.jpg"
     ]
   },
-  "src/routes/species/playable.md": {
-    "file": "pages/species/playable.md-554d9958.js",
-    "src": "src/routes/species/playable.md",
+  "src/routes/bestiary/index.md": {
+    "file": "pages/bestiary/index.md-820452e2.js",
+    "src": "src/routes/bestiary/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-06a89145.js",
-      "_soloPageLayout-91820d7e.js",
-      "_h2-52762e8f.js"
+      "_vendor-8432d81c.js",
+      "_soloPageLayout-9e011126.js",
+      "_h2-695eb112.js",
+      "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/species/main.md": {
-    "file": "pages/species/main.md-d3fb2308.js",
-    "src": "src/routes/species/main.md",
+  "src/routes/bestiary/monstrous_intelligences.md": {
+    "file": "pages/bestiary/monstrous_intelligences.md-1cc3d1b9.js",
+    "src": "src/routes/bestiary/monstrous_intelligences.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-06a89145.js",
-      "_soloPageLayout-91820d7e.js",
-      "_h2-52762e8f.js"
+      "_vendor-8432d81c.js",
+      "_soloPageLayout-9e011126.js",
+      "_h2-695eb112.js",
+      "_singletons-d1fb5791.js"
     ]
   },
-  "_vendor-06a89145.js": {
-    "file": "chunks/vendor-06a89145.js"
-  },
-  "_h2-52762e8f.js": {
-    "file": "chunks/h2-52762e8f.js",
+  "src/routes/bestiary/playable.md": {
+    "file": "pages/bestiary/playable.md-7462bfbc.js",
+    "src": "src/routes/bestiary/playable.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
     "imports": [
-      "_vendor-06a89145.js"
+      "_vendor-8432d81c.js",
+      "_soloPageLayout-9e011126.js",
+      "_h2-695eb112.js",
+      "_singletons-d1fb5791.js"
     ]
   },
-  "_soloPageLayout-91820d7e.js": {
-    "file": "chunks/soloPageLayout-91820d7e.js",
+  "_vendor-8432d81c.js": {
+    "file": "chunks/vendor-8432d81c.js"
+  },
+  "_singletons-d1fb5791.js": {
+    "file": "chunks/singletons-d1fb5791.js"
+  },
+  "_h2-695eb112.js": {
+    "file": "chunks/h2-695eb112.js",
     "imports": [
-      "_vendor-06a89145.js",
-      "_h2-52762e8f.js"
+      "_vendor-8432d81c.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "_soloPageLayout-9e011126.js": {
+    "file": "chunks/soloPageLayout-9e011126.js",
+    "imports": [
+      "_vendor-8432d81c.js",
+      "_h2-695eb112.js"
     ]
   }
 }
