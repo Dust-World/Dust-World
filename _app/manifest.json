@@ -1,47 +1,65 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-9ebea955.js",
+    "file": "start-25e60952.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-8432d81c.js",
+      "_vendor-54364310.js",
       "_singletons-d1fb5791.js"
     ],
     "dynamicImports": [
       ".svelte-kit/runtime/components/layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
-      "src/routes/bestiary/index.md",
-      "src/routes/bestiary/monstrous_intelligences.md",
-      "src/routes/bestiary/playable.md"
+      "src/routes/gazetteer/index.svelte",
+      "_index-09a29380.js",
+      "_index-4bc5e815.js",
+      "_index-990387c0.js",
+      "_index-5a38a6d4.js",
+      "_index-f3587165.js",
+      "_index-99633871.js",
+      "_index-d7a4b8cc.js",
+      "_index-7da50133.js",
+      "_doppelganger-f4ab78d3.js",
+      "_ogre-01a51a74.js",
+      "src/routes/bestiary/monstrous_intelligences/changelings/test.svelte",
+      "src/routes/bestiary/playable_species/index.md",
+      "_demi-apye-76c494ca.js",
+      "_vistime-3a4c3cc4.js",
+      "_duarr-e2182610.js",
+      "_groth-fa703c20.js",
+      "_apye-b120ce1a.js",
+      "_harj-1046515b.js"
     ]
   },
   ".svelte-kit/runtime/components/layout.svelte": {
-    "file": "layout.svelte-8ee312c4.js",
+    "file": "layout.svelte-b4faa142.js",
     "src": ".svelte-kit/runtime/components/layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-8432d81c.js"
+      "_vendor-54364310.js"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-6b9b18cd.js",
+    "file": "error.svelte-ff2b8708.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-8432d81c.js"
+      "_vendor-54364310.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-134b8efb.js",
+    "file": "pages/index.svelte-2e417b5f.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-8432d81c.js",
-      "_h2-695eb112.js",
+      "_vendor-54364310.js",
+      "_navbar-741bbfb9.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
       "_singletons-d1fb5791.js"
     ],
     "css": [
@@ -51,60 +69,420 @@
       "assets/splashBackground-1d930343.jpg"
     ]
   },
+  "src/routes/gazetteer/index.svelte": {
+    "file": "pages/gazetteer/index.svelte-90722005.js",
+    "src": "src/routes/gazetteer/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js"
+    ]
+  },
+  "src/routes/bestiary/monstrous_intelligences/changelings/test.svelte": {
+    "file": "pages/bestiary/monstrous_intelligences/changelings/test.svelte-d1d645bf.js",
+    "src": "src/routes/bestiary/monstrous_intelligences/changelings/test.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js"
+    ]
+  },
+  "src/routes/bestiary/playable_species/index.md": {
+    "file": "pages/bestiary/playable_species/index.md-bbfced37.js",
+    "src": "src/routes/bestiary/playable_species/index.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_index-99633871.js",
+      "_index-d7a4b8cc.js",
+      "_apye-b120ce1a.js",
+      "_demi-apye-76c494ca.js",
+      "_duarr-e2182610.js",
+      "_groth-fa703c20.js",
+      "_harj-1046515b.js",
+      "_h2-b257e6b7.js",
+      "_vistime-3a4c3cc4.js",
+      "_doppelganger-f4ab78d3.js",
+      "_index-7da50133.js",
+      "_ogre-01a51a74.js",
+      "_index-09a29380.js",
+      "_index-5a38a6d4.js",
+      "_index-f3587165.js",
+      "_index-4bc5e815.js",
+      "_index-990387c0.js",
+      "_navbar-741bbfb9.js",
+      "_soloPageLayout-c364b959.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/gazetteer/polities/eastern_kingdoms/index.md": {
+    "file": "pages/gazetteer/polities/eastern_kingdoms/index.md-df957f2b.js",
+    "src": "src/routes/gazetteer/polities/eastern_kingdoms/index.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
+      "_index-09a29380.js"
+    ]
+  },
+  "src/routes/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md": {
+    "file": "pages/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md-9362c86f.js",
+    "src": "src/routes/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
+      "_index-4bc5e815.js"
+    ]
+  },
+  "src/routes/gazetteer/polities/eastern_kingdoms/kremyat/index.md": {
+    "file": "pages/gazetteer/polities/eastern_kingdoms/kremyat/index.md-e59ca050.js",
+    "src": "src/routes/gazetteer/polities/eastern_kingdoms/kremyat/index.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
+      "_index-990387c0.js"
+    ]
+  },
+  "src/routes/gazetteer/regions/doyoc_plains/index.md": {
+    "file": "pages/gazetteer/regions/doyoc_plains/index.md-9fb30634.js",
+    "src": "src/routes/gazetteer/regions/doyoc_plains/index.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
+      "_index-5a38a6d4.js"
+    ]
+  },
+  "src/routes/gazetteer/regions/kremlands/index.md": {
+    "file": "pages/gazetteer/regions/kremlands/index.md-557ba8fe.js",
+    "src": "src/routes/gazetteer/regions/kremlands/index.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
+      "_index-f3587165.js"
+    ]
+  },
   "src/routes/bestiary/index.md": {
-    "file": "pages/bestiary/index.md-820452e2.js",
+    "file": "pages/bestiary/index.md-2fcfd119.js",
     "src": "src/routes/bestiary/index.md",
     "isEntry": true,
-    "isDynamicEntry": true,
     "imports": [
-      "_vendor-8432d81c.js",
-      "_soloPageLayout-9e011126.js",
-      "_h2-695eb112.js",
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_index-99633871.js",
+      "_h2-b257e6b7.js",
+      "_navbar-741bbfb9.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/bestiary/monstrous_intelligences.md": {
-    "file": "pages/bestiary/monstrous_intelligences.md-1cc3d1b9.js",
-    "src": "src/routes/bestiary/monstrous_intelligences.md",
+  "src/routes/bestiary/monstrous_intelligences/index.md": {
+    "file": "pages/bestiary/monstrous_intelligences/index.md-b952ce73.js",
+    "src": "src/routes/bestiary/monstrous_intelligences/index.md",
     "isEntry": true,
-    "isDynamicEntry": true,
     "imports": [
-      "_vendor-8432d81c.js",
-      "_soloPageLayout-9e011126.js",
-      "_h2-695eb112.js",
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js",
+      "_index-d7a4b8cc.js",
+      "_navbar-741bbfb9.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "src/routes/bestiary/playable.md": {
-    "file": "pages/bestiary/playable.md-7462bfbc.js",
-    "src": "src/routes/bestiary/playable.md",
+  "src/routes/bestiary/monstrous_intelligences/changelings/index.md": {
+    "file": "pages/bestiary/monstrous_intelligences/changelings/index.md-e8dc81a9.js",
+    "src": "src/routes/bestiary/monstrous_intelligences/changelings/index.md",
     "isEntry": true,
-    "isDynamicEntry": true,
     "imports": [
-      "_vendor-8432d81c.js",
-      "_soloPageLayout-9e011126.js",
-      "_h2-695eb112.js",
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
+      "_index-7da50133.js"
+    ]
+  },
+  "src/routes/bestiary/monstrous_intelligences/changelings/doppelganger.md": {
+    "file": "pages/bestiary/monstrous_intelligences/changelings/doppelganger.md-e3a65edf.js",
+    "src": "src/routes/bestiary/monstrous_intelligences/changelings/doppelganger.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
+      "_doppelganger-f4ab78d3.js"
+    ]
+  },
+  "src/routes/bestiary/monstrous_intelligences/changelings/ogre.md": {
+    "file": "pages/bestiary/monstrous_intelligences/changelings/ogre.md-40eaa91f.js",
+    "src": "src/routes/bestiary/monstrous_intelligences/changelings/ogre.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js",
+      "_ogre-01a51a74.js"
+    ]
+  },
+  "src/routes/bestiary/playable_species/apye.md": {
+    "file": "pages/bestiary/playable_species/apye.md-5e81913a.js",
+    "src": "src/routes/bestiary/playable_species/apye.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js",
+      "_apye-b120ce1a.js",
+      "_navbar-741bbfb9.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "_vendor-8432d81c.js": {
-    "file": "chunks/vendor-8432d81c.js"
+  "src/routes/bestiary/playable_species/demi-apye.md": {
+    "file": "pages/bestiary/playable_species/demi-apye.md-3be2e114.js",
+    "src": "src/routes/bestiary/playable_species/demi-apye.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js",
+      "_demi-apye-76c494ca.js",
+      "_navbar-741bbfb9.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/bestiary/playable_species/duarr.md": {
+    "file": "pages/bestiary/playable_species/duarr.md-6b68a4b7.js",
+    "src": "src/routes/bestiary/playable_species/duarr.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js",
+      "_duarr-e2182610.js",
+      "_navbar-741bbfb9.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/bestiary/playable_species/groth.md": {
+    "file": "pages/bestiary/playable_species/groth.md-20b31e62.js",
+    "src": "src/routes/bestiary/playable_species/groth.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js",
+      "_groth-fa703c20.js",
+      "_navbar-741bbfb9.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/bestiary/playable_species/harj.md": {
+    "file": "pages/bestiary/playable_species/harj.md-3402451b.js",
+    "src": "src/routes/bestiary/playable_species/harj.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js",
+      "_harj-1046515b.js",
+      "_navbar-741bbfb9.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/routes/bestiary/playable_species/vistime.md": {
+    "file": "pages/bestiary/playable_species/vistime.md-2e7992ab.js",
+    "src": "src/routes/bestiary/playable_species/vistime.md",
+    "isEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js",
+      "_vistime-3a4c3cc4.js",
+      "_navbar-741bbfb9.js",
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "_vendor-54364310.js": {
+    "file": "chunks/vendor-54364310.js"
   },
   "_singletons-d1fb5791.js": {
     "file": "chunks/singletons-d1fb5791.js"
   },
-  "_h2-695eb112.js": {
-    "file": "chunks/h2-695eb112.js",
+  "_navbar-741bbfb9.js": {
+    "file": "chunks/navbar-741bbfb9.js",
     "imports": [
-      "_vendor-8432d81c.js",
+      "_vendor-54364310.js",
       "_singletons-d1fb5791.js"
     ]
   },
-  "_soloPageLayout-9e011126.js": {
-    "file": "chunks/soloPageLayout-9e011126.js",
+  "_baseLayout-1e9b7a4d.js": {
+    "file": "chunks/baseLayout-1e9b7a4d.js",
     "imports": [
-      "_vendor-8432d81c.js",
-      "_h2-695eb112.js"
+      "_vendor-54364310.js"
+    ]
+  },
+  "_h2-b257e6b7.js": {
+    "file": "chunks/h2-b257e6b7.js",
+    "imports": [
+      "_vendor-54364310.js"
+    ]
+  },
+  "_index-09a29380.js": {
+    "file": "chunks/index-09a29380.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_index-4bc5e815.js": {
+    "file": "chunks/index-4bc5e815.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_index-990387c0.js": {
+    "file": "chunks/index-990387c0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_index-5a38a6d4.js": {
+    "file": "chunks/index-5a38a6d4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_index-f3587165.js": {
+    "file": "chunks/index-f3587165.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_index-99633871.js": {
+    "file": "chunks/index-99633871.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_soloPageLayout-c364b959.js": {
+    "file": "chunks/soloPageLayout-c364b959.js",
+    "imports": [
+      "_vendor-54364310.js",
+      "_navbar-741bbfb9.js"
+    ]
+  },
+  "_index-d7a4b8cc.js": {
+    "file": "chunks/index-d7a4b8cc.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_index-7da50133.js": {
+    "file": "chunks/index-7da50133.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_doppelganger-f4ab78d3.js": {
+    "file": "chunks/doppelganger-f4ab78d3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_ogre-01a51a74.js": {
+    "file": "chunks/ogre-01a51a74.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_baseLayout-1e9b7a4d.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_apye-b120ce1a.js": {
+    "file": "chunks/apye-b120ce1a.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_demi-apye-76c494ca.js": {
+    "file": "chunks/demi-apye-76c494ca.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_duarr-e2182610.js": {
+    "file": "chunks/duarr-e2182610.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_groth-fa703c20.js": {
+    "file": "chunks/groth-fa703c20.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_harj-1046515b.js": {
+    "file": "chunks/harj-1046515b.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js"
+    ]
+  },
+  "_vistime-3a4c3cc4.js": {
+    "file": "chunks/vistime-3a4c3cc4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-54364310.js",
+      "_soloPageLayout-c364b959.js",
+      "_h2-b257e6b7.js"
     ]
   }
 }
