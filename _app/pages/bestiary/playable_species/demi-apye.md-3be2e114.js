@@ -1,1 +1,0 @@
-import"../../../chunks/vendor-54364310.js";import"../../../chunks/soloPageLayout-c364b959.js";import"../../../chunks/h2-b257e6b7.js";import{D as e,m as d}from"../../../chunks/demi-apye-76c494ca.js";import"../../../chunks/navbar-741bbfb9.js";import"../../../chunks/singletons-d1fb5791.js";export{e as default,d as metadata};

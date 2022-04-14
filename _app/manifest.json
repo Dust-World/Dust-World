@@ -1,66 +1,75 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-25e60952.js",
+    "file": "start-8e984bb4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_singletons-ab9ecca4.js"
     ],
     "dynamicImports": [
-      ".svelte-kit/runtime/components/layout.svelte",
+      "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
-      "src/routes/index.svelte",
-      "src/routes/gazetteer/index.svelte",
-      "_index-09a29380.js",
-      "_index-4bc5e815.js",
-      "_index-990387c0.js",
-      "_index-5a38a6d4.js",
-      "_index-f3587165.js",
-      "_index-99633871.js",
-      "_index-d7a4b8cc.js",
-      "_index-7da50133.js",
-      "_doppelganger-f4ab78d3.js",
-      "_ogre-01a51a74.js",
-      "src/routes/bestiary/monstrous_intelligences/changelings/test.svelte",
-      "src/routes/bestiary/playable_species/index.md",
-      "_demi-apye-76c494ca.js",
-      "_vistime-3a4c3cc4.js",
-      "_duarr-e2182610.js",
-      "_groth-fa703c20.js",
-      "_apye-b120ce1a.js",
-      "_harj-1046515b.js"
+      "_index-d68a1baa.js",
+      "_index-a4a88108.js",
+      "_index-b63c1b32.js",
+      "_doppelganger-0544aabc.js",
+      "_index-1ba25649.js",
+      "_ogre-432287bd.js",
+      "_index-12d820bd.js",
+      "_index-59ea3c0d.js",
+      "_apye-aa3e2d0a.js",
+      "_demi-apye-aeae0e75.js",
+      "_duarr-3cf15779.js",
+      "_groth-19456132.js",
+      "_harj-b1a0c92a.js",
+      "_vistime-71209a11.js",
+      "_index-54e51826.js",
+      "_index-36a4f167.js",
+      "_index-e6bc4d46.js",
+      "_index-9da92996.js",
+      "_index-a9940533.js",
+      "_index-dfc98ac4.js",
+      "_index-4cc89f36.js",
+      "_index-ffd78d6c.js",
+      "src/routes/index.svelte"
     ]
   },
-  ".svelte-kit/runtime/components/layout.svelte": {
-    "file": "layout.svelte-b4faa142.js",
-    "src": ".svelte-kit/runtime/components/layout.svelte",
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-2a21cf04.js",
+    "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js"
+      "_index-fb5fb875.js",
+      "_singletons-ab9ecca4.js",
+      "_Ripple-5fd54144.js",
+      "_IconButton-298eec29.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-ff2b8708.js",
+    "file": "error.svelte-e1ffee9a.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js"
+      "_index-fb5fb875.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-2e417b5f.js",
+    "file": "pages/index.svelte-8617d824.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_navbar-741bbfb9.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_baseLayout-f2834154.js",
+      "_index-3b7b810b.js",
+      "_IconButton-298eec29.js",
+      "_h2-264af3af.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js"
     ],
     "css": [
       "assets/pages/index.svelte-7b18da2d.css"
@@ -69,420 +78,720 @@
       "assets/splashBackground-1d930343.jpg"
     ]
   },
-  "src/routes/gazetteer/index.svelte": {
-    "file": "pages/gazetteer/index.svelte-90722005.js",
-    "src": "src/routes/gazetteer/index.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-54364310.js"
-    ]
-  },
-  "src/routes/bestiary/monstrous_intelligences/changelings/test.svelte": {
-    "file": "pages/bestiary/monstrous_intelligences/changelings/test.svelte-d1d645bf.js",
-    "src": "src/routes/bestiary/monstrous_intelligences/changelings/test.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-54364310.js"
-    ]
-  },
-  "src/routes/bestiary/playable_species/index.md": {
-    "file": "pages/bestiary/playable_species/index.md-bbfced37.js",
-    "src": "src/routes/bestiary/playable_species/index.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-54364310.js",
-      "_index-99633871.js",
-      "_index-d7a4b8cc.js",
-      "_apye-b120ce1a.js",
-      "_demi-apye-76c494ca.js",
-      "_duarr-e2182610.js",
-      "_groth-fa703c20.js",
-      "_harj-1046515b.js",
-      "_h2-b257e6b7.js",
-      "_vistime-3a4c3cc4.js",
-      "_doppelganger-f4ab78d3.js",
-      "_index-7da50133.js",
-      "_ogre-01a51a74.js",
-      "_index-09a29380.js",
-      "_index-5a38a6d4.js",
-      "_index-f3587165.js",
-      "_index-4bc5e815.js",
-      "_index-990387c0.js",
-      "_navbar-741bbfb9.js",
-      "_soloPageLayout-c364b959.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_singletons-d1fb5791.js"
-    ]
-  },
-  "src/routes/gazetteer/polities/eastern_kingdoms/index.md": {
-    "file": "pages/gazetteer/polities/eastern_kingdoms/index.md-df957f2b.js",
-    "src": "src/routes/gazetteer/polities/eastern_kingdoms/index.md",
+  "src/routes/bestiary/aberrations/index.md": {
+    "file": "pages/bestiary/aberrations/index.md-40483357.js",
+    "src": "src/routes/bestiary/aberrations/index.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_index-09a29380.js"
-    ]
-  },
-  "src/routes/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md": {
-    "file": "pages/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md-9362c86f.js",
-    "src": "src/routes/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md",
-    "isEntry": true,
-    "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_index-4bc5e815.js"
-    ]
-  },
-  "src/routes/gazetteer/polities/eastern_kingdoms/kremyat/index.md": {
-    "file": "pages/gazetteer/polities/eastern_kingdoms/kremyat/index.md-e59ca050.js",
-    "src": "src/routes/gazetteer/polities/eastern_kingdoms/kremyat/index.md",
-    "isEntry": true,
-    "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_index-990387c0.js"
-    ]
-  },
-  "src/routes/gazetteer/regions/doyoc_plains/index.md": {
-    "file": "pages/gazetteer/regions/doyoc_plains/index.md-9fb30634.js",
-    "src": "src/routes/gazetteer/regions/doyoc_plains/index.md",
-    "isEntry": true,
-    "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_index-5a38a6d4.js"
-    ]
-  },
-  "src/routes/gazetteer/regions/kremlands/index.md": {
-    "file": "pages/gazetteer/regions/kremlands/index.md-557ba8fe.js",
-    "src": "src/routes/gazetteer/regions/kremlands/index.md",
-    "isEntry": true,
-    "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_index-f3587165.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_index-d68a1baa.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   "src/routes/bestiary/index.md": {
-    "file": "pages/bestiary/index.md-2fcfd119.js",
+    "file": "pages/bestiary/index.md-416e289b.js",
     "src": "src/routes/bestiary/index.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_index-99633871.js",
-      "_h2-b257e6b7.js",
-      "_navbar-741bbfb9.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js",
+      "_index-a4a88108.js",
+      "_stores-22764ea6.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js"
     ]
   },
-  "src/routes/bestiary/monstrous_intelligences/index.md": {
-    "file": "pages/bestiary/monstrous_intelligences/index.md-b952ce73.js",
-    "src": "src/routes/bestiary/monstrous_intelligences/index.md",
+  "src/routes/bestiary/monstrous_creatures/index.md": {
+    "file": "pages/bestiary/monstrous_creatures/index.md-dba88b25.js",
+    "src": "src/routes/bestiary/monstrous_creatures/index.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js",
-      "_index-d7a4b8cc.js",
-      "_navbar-741bbfb9.js",
-      "_singletons-d1fb5791.js"
-    ]
-  },
-  "src/routes/bestiary/monstrous_intelligences/changelings/index.md": {
-    "file": "pages/bestiary/monstrous_intelligences/changelings/index.md-e8dc81a9.js",
-    "src": "src/routes/bestiary/monstrous_intelligences/changelings/index.md",
-    "isEntry": true,
-    "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_index-7da50133.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_index-b63c1b32.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   "src/routes/bestiary/monstrous_intelligences/changelings/doppelganger.md": {
-    "file": "pages/bestiary/monstrous_intelligences/changelings/doppelganger.md-e3a65edf.js",
+    "file": "pages/bestiary/monstrous_intelligences/changelings/doppelganger.md-300f3e18.js",
     "src": "src/routes/bestiary/monstrous_intelligences/changelings/doppelganger.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_doppelganger-f4ab78d3.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_doppelganger-0544aabc.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
-  "src/routes/bestiary/monstrous_intelligences/changelings/ogre.md": {
-    "file": "pages/bestiary/monstrous_intelligences/changelings/ogre.md-40eaa91f.js",
-    "src": "src/routes/bestiary/monstrous_intelligences/changelings/ogre.md",
+  "src/routes/bestiary/playable_species/index.md": {
+    "file": "pages/bestiary/playable_species/index.md-ba91e3bc.js",
+    "src": "src/routes/bestiary/playable_species/index.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js",
-      "_ogre-01a51a74.js"
+      "_index-fb5fb875.js",
+      "_index-1ba25649.js",
+      "_h2-264af3af.js",
+      "_index-a4a88108.js",
+      "_directoryPage-15cad789.js",
+      "_stores-22764ea6.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js",
+      "_index-54e51826.js",
+      "_index-d68a1baa.js",
+      "_soloPageLayout-1c96551f.js",
+      "_index-b63c1b32.js",
+      "_index-12d820bd.js",
+      "_index-59ea3c0d.js",
+      "_apye-aa3e2d0a.js",
+      "_demi-apye-aeae0e75.js",
+      "_duarr-3cf15779.js",
+      "_groth-19456132.js",
+      "_harj-b1a0c92a.js",
+      "_vistime-71209a11.js",
+      "_index-a9940533.js",
+      "_index-4cc89f36.js",
+      "_doppelganger-0544aabc.js",
+      "_ogre-432287bd.js",
+      "_baseLayout-f2834154.js",
+      "_index-e6bc4d46.js",
+      "_index-dfc98ac4.js",
+      "_index-ffd78d6c.js",
+      "_index-36a4f167.js",
+      "_index-9da92996.js"
+    ]
+  },
+  "src/routes/bestiary/monstrous_intelligences/changelings/index.md": {
+    "file": "pages/bestiary/monstrous_intelligences/changelings/index.md-28e4fd47.js",
+    "src": "src/routes/bestiary/monstrous_intelligences/changelings/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_index-1ba25649.js",
+      "_h2-264af3af.js",
+      "_index-a4a88108.js",
+      "_directoryPage-15cad789.js",
+      "_stores-22764ea6.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js",
+      "_index-54e51826.js",
+      "_index-d68a1baa.js",
+      "_soloPageLayout-1c96551f.js",
+      "_index-b63c1b32.js",
+      "_index-12d820bd.js",
+      "_index-59ea3c0d.js",
+      "_apye-aa3e2d0a.js",
+      "_demi-apye-aeae0e75.js",
+      "_duarr-3cf15779.js",
+      "_groth-19456132.js",
+      "_harj-b1a0c92a.js",
+      "_vistime-71209a11.js",
+      "_index-a9940533.js",
+      "_index-4cc89f36.js",
+      "_doppelganger-0544aabc.js",
+      "_ogre-432287bd.js",
+      "_baseLayout-f2834154.js",
+      "_index-e6bc4d46.js",
+      "_index-dfc98ac4.js",
+      "_index-ffd78d6c.js",
+      "_index-36a4f167.js",
+      "_index-9da92996.js"
+    ]
+  },
+  "src/routes/gazetteer/index.md": {
+    "file": "pages/gazetteer/index.md-ee0018d6.js",
+    "src": "src/routes/gazetteer/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js",
+      "_index-54e51826.js",
+      "_stores-22764ea6.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js"
+    ]
+  },
+  "src/routes/bestiary/monstrous_intelligences/index.md": {
+    "file": "pages/bestiary/monstrous_intelligences/index.md-1bac01a5.js",
+    "src": "src/routes/bestiary/monstrous_intelligences/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js",
+      "_index-12d820bd.js",
+      "_stores-22764ea6.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js"
+    ]
+  },
+  "src/routes/bestiary/non_playable_sapients/index.md": {
+    "file": "pages/bestiary/non_playable_sapients/index.md-214a371a.js",
+    "src": "src/routes/bestiary/non_playable_sapients/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_index-59ea3c0d.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   "src/routes/bestiary/playable_species/apye.md": {
-    "file": "pages/bestiary/playable_species/apye.md-5e81913a.js",
+    "file": "pages/bestiary/playable_species/apye.md-13eca0d7.js",
     "src": "src/routes/bestiary/playable_species/apye.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js",
-      "_apye-b120ce1a.js",
-      "_navbar-741bbfb9.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_apye-aa3e2d0a.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   "src/routes/bestiary/playable_species/demi-apye.md": {
-    "file": "pages/bestiary/playable_species/demi-apye.md-3be2e114.js",
+    "file": "pages/bestiary/playable_species/demi-apye.md-580d6e87.js",
     "src": "src/routes/bestiary/playable_species/demi-apye.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js",
-      "_demi-apye-76c494ca.js",
-      "_navbar-741bbfb9.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_demi-apye-aeae0e75.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   "src/routes/bestiary/playable_species/duarr.md": {
-    "file": "pages/bestiary/playable_species/duarr.md-6b68a4b7.js",
+    "file": "pages/bestiary/playable_species/duarr.md-22d315cf.js",
     "src": "src/routes/bestiary/playable_species/duarr.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js",
-      "_duarr-e2182610.js",
-      "_navbar-741bbfb9.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_duarr-3cf15779.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   "src/routes/bestiary/playable_species/groth.md": {
-    "file": "pages/bestiary/playable_species/groth.md-20b31e62.js",
+    "file": "pages/bestiary/playable_species/groth.md-3391c644.js",
     "src": "src/routes/bestiary/playable_species/groth.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js",
-      "_groth-fa703c20.js",
-      "_navbar-741bbfb9.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_groth-19456132.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   "src/routes/bestiary/playable_species/harj.md": {
-    "file": "pages/bestiary/playable_species/harj.md-3402451b.js",
+    "file": "pages/bestiary/playable_species/harj.md-b86dc1bc.js",
     "src": "src/routes/bestiary/playable_species/harj.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js",
-      "_harj-1046515b.js",
-      "_navbar-741bbfb9.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_harj-b1a0c92a.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
   "src/routes/bestiary/playable_species/vistime.md": {
-    "file": "pages/bestiary/playable_species/vistime.md-2e7992ab.js",
+    "file": "pages/bestiary/playable_species/vistime.md-119025e6.js",
     "src": "src/routes/bestiary/playable_species/vistime.md",
     "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js",
-      "_vistime-3a4c3cc4.js",
-      "_navbar-741bbfb9.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_vistime-71209a11.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
     ]
   },
-  "_vendor-54364310.js": {
-    "file": "chunks/vendor-54364310.js"
-  },
-  "_singletons-d1fb5791.js": {
-    "file": "chunks/singletons-d1fb5791.js"
-  },
-  "_navbar-741bbfb9.js": {
-    "file": "chunks/navbar-741bbfb9.js",
+  "src/routes/gazetteer/polities/index.md": {
+    "file": "pages/gazetteer/polities/index.md-36d359d9.js",
+    "src": "src/routes/gazetteer/polities/index.md",
+    "isEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_singletons-d1fb5791.js"
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js",
+      "_index-a9940533.js",
+      "_stores-22764ea6.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js"
     ]
   },
-  "_baseLayout-1e9b7a4d.js": {
-    "file": "chunks/baseLayout-1e9b7a4d.js",
+  "src/routes/gazetteer/regions/index.md": {
+    "file": "pages/gazetteer/regions/index.md-05a06e83.js",
+    "src": "src/routes/gazetteer/regions/index.md",
+    "isEntry": true,
     "imports": [
-      "_vendor-54364310.js"
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js",
+      "_index-4cc89f36.js",
+      "_stores-22764ea6.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js"
     ]
   },
-  "_h2-b257e6b7.js": {
-    "file": "chunks/h2-b257e6b7.js",
+  "src/routes/bestiary/monstrous_intelligences/changelings/ogre.md": {
+    "file": "pages/bestiary/monstrous_intelligences/changelings/ogre.md-6c4deb59.js",
+    "src": "src/routes/bestiary/monstrous_intelligences/changelings/ogre.md",
+    "isEntry": true,
     "imports": [
-      "_vendor-54364310.js"
+      "_index-fb5fb875.js",
+      "_baseLayout-f2834154.js",
+      "_h2-264af3af.js",
+      "_ogre-432287bd.js"
     ]
   },
-  "_index-09a29380.js": {
-    "file": "chunks/index-09a29380.js",
+  "src/routes/gazetteer/polities/eastern_kingdoms/index.md": {
+    "file": "pages/gazetteer/polities/eastern_kingdoms/index.md-957cfc76.js",
+    "src": "src/routes/gazetteer/polities/eastern_kingdoms/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js",
+      "_index-e6bc4d46.js",
+      "_stores-22764ea6.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js"
+    ]
+  },
+  "src/routes/gazetteer/regions/doyoc_plains/index.md": {
+    "file": "pages/gazetteer/regions/doyoc_plains/index.md-f53ef02a.js",
+    "src": "src/routes/gazetteer/regions/doyoc_plains/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_baseLayout-f2834154.js",
+      "_h2-264af3af.js",
+      "_index-dfc98ac4.js"
+    ]
+  },
+  "src/routes/gazetteer/regions/kremlands/index.md": {
+    "file": "pages/gazetteer/regions/kremlands/index.md-7bd1ea44.js",
+    "src": "src/routes/gazetteer/regions/kremlands/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_index-ffd78d6c.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
+    ]
+  },
+  "src/routes/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md": {
+    "file": "pages/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md-f1d89a71.js",
+    "src": "src/routes/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_index-36a4f167.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
+    ]
+  },
+  "src/routes/gazetteer/polities/eastern_kingdoms/kremyat/index.md": {
+    "file": "pages/gazetteer/polities/eastern_kingdoms/kremyat/index.md-702e826b.js",
+    "src": "src/routes/gazetteer/polities/eastern_kingdoms/kremyat/index.md",
+    "isEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js",
+      "_index-9da92996.js",
+      "_Subtitle-8c192802.js",
+      "_Ripple-5fd54144.js",
+      "_stores-22764ea6.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
+    ]
+  },
+  "_index-fb5fb875.js": {
+    "file": "chunks/index-fb5fb875.js"
+  },
+  "_singletons-ab9ecca4.js": {
+    "file": "chunks/singletons-ab9ecca4.js",
+    "imports": [
+      "_index-fb5fb875.js"
+    ]
+  },
+  "_IconButton-298eec29.js": {
+    "file": "chunks/IconButton-298eec29.js",
+    "imports": [
+      "_index-fb5fb875.js",
+      "_Ripple-5fd54144.js"
+    ]
+  },
+  "_navigation-84a2d39d.js": {
+    "file": "chunks/navigation-84a2d39d.js",
+    "imports": [
+      "_singletons-ab9ecca4.js"
+    ]
+  },
+  "_Ripple-5fd54144.js": {
+    "file": "chunks/Ripple-5fd54144.js",
+    "imports": [
+      "_index-fb5fb875.js"
+    ]
+  },
+  "_index-d68a1baa.js": {
+    "file": "chunks/index-d68a1baa.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_index-4bc5e815.js": {
-    "file": "chunks/index-4bc5e815.js",
+  "_soloPageLayout-1c96551f.js": {
+    "file": "chunks/soloPageLayout-1c96551f.js",
+    "imports": [
+      "_index-fb5fb875.js",
+      "_Subtitle-8c192802.js",
+      "_stores-22764ea6.js"
+    ]
+  },
+  "_h2-264af3af.js": {
+    "file": "chunks/h2-264af3af.js",
+    "imports": [
+      "_index-fb5fb875.js"
+    ]
+  },
+  "_Subtitle-8c192802.js": {
+    "file": "chunks/Subtitle-8c192802.js",
+    "imports": [
+      "_index-fb5fb875.js",
+      "_Ripple-5fd54144.js"
+    ]
+  },
+  "_stores-22764ea6.js": {
+    "file": "chunks/stores-22764ea6.js",
+    "imports": [
+      "_index-fb5fb875.js",
+      "_Ripple-5fd54144.js",
+      "_singletons-ab9ecca4.js",
+      "_navigation-84a2d39d.js"
+    ]
+  },
+  "_index-a4a88108.js": {
+    "file": "chunks/index-a4a88108.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_index-990387c0.js": {
-    "file": "chunks/index-990387c0.js",
+  "_directoryPage-15cad789.js": {
+    "file": "chunks/directoryPage-15cad789.js",
+    "imports": [
+      "_index-fb5fb875.js",
+      "_stores-22764ea6.js",
+      "_navigation-84a2d39d.js",
+      "_Ripple-5fd54144.js",
+      "_index-3b7b810b.js",
+      "_Subtitle-8c192802.js"
+    ]
+  },
+  "_index-3b7b810b.js": {
+    "file": "chunks/index-3b7b810b.js",
+    "imports": [
+      "_index-fb5fb875.js",
+      "_Ripple-5fd54144.js"
+    ]
+  },
+  "_index-b63c1b32.js": {
+    "file": "chunks/index-b63c1b32.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_index-5a38a6d4.js": {
-    "file": "chunks/index-5a38a6d4.js",
+  "_doppelganger-0544aabc.js": {
+    "file": "chunks/doppelganger-0544aabc.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_index-f3587165.js": {
-    "file": "chunks/index-f3587165.js",
+  "_index-1ba25649.js": {
+    "file": "chunks/index-1ba25649.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_index-a4a88108.js",
+      "_index-54e51826.js",
+      "_index-d68a1baa.js",
+      "_index-b63c1b32.js",
+      "_index-12d820bd.js",
+      "_index-59ea3c0d.js",
+      "_apye-aa3e2d0a.js",
+      "_demi-apye-aeae0e75.js",
+      "_duarr-3cf15779.js",
+      "_groth-19456132.js",
+      "_harj-b1a0c92a.js",
+      "_h2-264af3af.js",
+      "_vistime-71209a11.js",
+      "_index-a9940533.js",
+      "_index-4cc89f36.js",
+      "_doppelganger-0544aabc.js",
+      "_ogre-432287bd.js",
+      "_index-e6bc4d46.js",
+      "_index-dfc98ac4.js",
+      "_index-ffd78d6c.js",
+      "_index-36a4f167.js",
+      "_index-9da92996.js",
+      "_stores-22764ea6.js",
+      "_directoryPage-15cad789.js",
+      "_Subtitle-8c192802.js",
+      "_index-3b7b810b.js"
     ]
   },
-  "_index-99633871.js": {
-    "file": "chunks/index-99633871.js",
+  "_index-54e51826.js": {
+    "file": "chunks/index-54e51826.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_soloPageLayout-c364b959.js": {
-    "file": "chunks/soloPageLayout-c364b959.js",
-    "imports": [
-      "_vendor-54364310.js",
-      "_navbar-741bbfb9.js"
-    ]
-  },
-  "_index-d7a4b8cc.js": {
-    "file": "chunks/index-d7a4b8cc.js",
+  "_index-12d820bd.js": {
+    "file": "chunks/index-12d820bd.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_index-7da50133.js": {
-    "file": "chunks/index-7da50133.js",
+  "_index-59ea3c0d.js": {
+    "file": "chunks/index-59ea3c0d.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_doppelganger-f4ab78d3.js": {
-    "file": "chunks/doppelganger-f4ab78d3.js",
+  "_apye-aa3e2d0a.js": {
+    "file": "chunks/apye-aa3e2d0a.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_ogre-01a51a74.js": {
-    "file": "chunks/ogre-01a51a74.js",
+  "_demi-apye-aeae0e75.js": {
+    "file": "chunks/demi-apye-aeae0e75.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_baseLayout-1e9b7a4d.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_apye-b120ce1a.js": {
-    "file": "chunks/apye-b120ce1a.js",
+  "_duarr-3cf15779.js": {
+    "file": "chunks/duarr-3cf15779.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_demi-apye-76c494ca.js": {
-    "file": "chunks/demi-apye-76c494ca.js",
+  "_groth-19456132.js": {
+    "file": "chunks/groth-19456132.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_duarr-e2182610.js": {
-    "file": "chunks/duarr-e2182610.js",
+  "_harj-b1a0c92a.js": {
+    "file": "chunks/harj-b1a0c92a.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_groth-fa703c20.js": {
-    "file": "chunks/groth-fa703c20.js",
+  "_vistime-71209a11.js": {
+    "file": "chunks/vistime-71209a11.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_harj-1046515b.js": {
-    "file": "chunks/harj-1046515b.js",
+  "_index-a9940533.js": {
+    "file": "chunks/index-a9940533.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js"
     ]
   },
-  "_vistime-3a4c3cc4.js": {
-    "file": "chunks/vistime-3a4c3cc4.js",
+  "_index-4cc89f36.js": {
+    "file": "chunks/index-4cc89f36.js",
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-54364310.js",
-      "_soloPageLayout-c364b959.js",
-      "_h2-b257e6b7.js"
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js"
+    ]
+  },
+  "_ogre-432287bd.js": {
+    "file": "chunks/ogre-432287bd.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_baseLayout-f2834154.js",
+      "_h2-264af3af.js"
+    ]
+  },
+  "_index-e6bc4d46.js": {
+    "file": "chunks/index-e6bc4d46.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_directoryPage-15cad789.js",
+      "_h2-264af3af.js"
+    ]
+  },
+  "_index-dfc98ac4.js": {
+    "file": "chunks/index-dfc98ac4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_baseLayout-f2834154.js",
+      "_h2-264af3af.js"
+    ]
+  },
+  "_index-ffd78d6c.js": {
+    "file": "chunks/index-ffd78d6c.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
+    ]
+  },
+  "_index-36a4f167.js": {
+    "file": "chunks/index-36a4f167.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
+    ]
+  },
+  "_index-9da92996.js": {
+    "file": "chunks/index-9da92996.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1c96551f.js",
+      "_h2-264af3af.js"
+    ]
+  },
+  "_baseLayout-f2834154.js": {
+    "file": "chunks/baseLayout-f2834154.js",
+    "imports": [
+      "_index-fb5fb875.js"
     ]
   }
 }

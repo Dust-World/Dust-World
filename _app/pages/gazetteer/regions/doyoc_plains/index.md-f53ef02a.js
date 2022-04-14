@@ -1,0 +1,1 @@
+import"../../../../chunks/index-fb5fb875.js";import"../../../../chunks/baseLayout-f2834154.js";import"../../../../chunks/h2-264af3af.js";import{D as p,m as e}from"../../../../chunks/index-dfc98ac4.js";export{p as default,e as metadata};
