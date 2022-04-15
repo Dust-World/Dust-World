@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-58872d53.js",
+    "file": "start-262baad4.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -35,11 +35,19 @@
       "src/routes/gazetteer/regions/index.md",
       "src/routes/gazetteer/regions/kremlands/index.md",
       "src/routes/index.svelte",
+      "src/routes/supernatural/arcane/illusionism.md",
+      "src/routes/supernatural/arcane/index.md",
+      "src/routes/supernatural/arcane/psionicism.md",
+      "src/routes/supernatural/index.md",
+      "src/routes/supernatural/spirit hosts/bardistry.md",
+      "src/routes/supernatural/spirit hosts/druidism.md",
+      "src/routes/supernatural/spirit hosts/index.md",
+      "src/routes/supernatural/spirit hosts/witchcraft.md",
       "src/routes/world.md"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-4a4be672.js",
+    "file": "pages/__layout.svelte-e16fd8a6.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -61,85 +69,85 @@
     ]
   },
   "src/routes/bestiary/aberrations/index.md": {
-    "file": "pages/bestiary/aberrations/index.md-9c6cc045.js",
+    "file": "pages/bestiary/aberrations/index.md-7103abbc.js",
     "src": "src/routes/bestiary/aberrations/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/index.md": {
-    "file": "pages/bestiary/index.md-a59729bf.js",
+    "file": "pages/bestiary/index.md-0f7906dc.js",
     "src": "src/routes/bestiary/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_directoryPage-5ad793b7.js",
+      "_directoryPage-4ed8a95e.js",
       "_h2-264af3af.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
       "_index-eb530dc4.js",
-      "_frontMatter-278c4862.js",
+      "_frontMatter-02862a3a.js",
       "_index-3f9da881.js",
       "_Subtitle-1a680221.js"
     ]
   },
   "src/routes/bestiary/monstrous_creatures/index.md": {
-    "file": "pages/bestiary/monstrous_creatures/index.md-6a296401.js",
+    "file": "pages/bestiary/monstrous_creatures/index.md-54aecdbe.js",
     "src": "src/routes/bestiary/monstrous_creatures/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/monstrous_intelligences/changelings/doppelganger.md": {
-    "file": "pages/bestiary/monstrous_intelligences/changelings/doppelganger.md-0ab65c08.js",
+    "file": "pages/bestiary/monstrous_intelligences/changelings/doppelganger.md-c8b0b2b4.js",
     "src": "src/routes/bestiary/monstrous_intelligences/changelings/doppelganger.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/monstrous_intelligences/changelings/index.md": {
-    "file": "pages/bestiary/monstrous_intelligences/changelings/index.md-475f1772.js",
+    "file": "pages/bestiary/monstrous_intelligences/changelings/index.md-8d3fa75e.js",
     "src": "src/routes/bestiary/monstrous_intelligences/changelings/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_parentLayout-e0b94d8d.js",
+      "_parentLayout-b802f803.js",
       "_h2-264af3af.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
       "_index-eb530dc4.js",
-      "_frontMatter-278c4862.js",
+      "_frontMatter-02862a3a.js",
       "_index-3f9da881.js",
       "_Subtitle-1a680221.js"
     ]
@@ -156,235 +164,235 @@
     ]
   },
   "src/routes/bestiary/monstrous_intelligences/index.md": {
-    "file": "pages/bestiary/monstrous_intelligences/index.md-b2a6da2e.js",
+    "file": "pages/bestiary/monstrous_intelligences/index.md-e86ed37b.js",
     "src": "src/routes/bestiary/monstrous_intelligences/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_directoryPage-5ad793b7.js",
+      "_directoryPage-4ed8a95e.js",
       "_h2-264af3af.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
       "_index-eb530dc4.js",
-      "_frontMatter-278c4862.js",
+      "_frontMatter-02862a3a.js",
       "_index-3f9da881.js",
       "_Subtitle-1a680221.js"
     ]
   },
   "src/routes/bestiary/non_playable_sapients/index.md": {
-    "file": "pages/bestiary/non_playable_sapients/index.md-73228cd4.js",
+    "file": "pages/bestiary/non_playable_sapients/index.md-b8fbcef7.js",
     "src": "src/routes/bestiary/non_playable_sapients/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/playable_species/apye.md": {
-    "file": "pages/bestiary/playable_species/apye.md-c9f62c18.js",
+    "file": "pages/bestiary/playable_species/apye.md-3da0d87a.js",
     "src": "src/routes/bestiary/playable_species/apye.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/playable_species/demi-apye.md": {
-    "file": "pages/bestiary/playable_species/demi-apye.md-7065ca04.js",
+    "file": "pages/bestiary/playable_species/demi-apye.md-05cca8a4.js",
     "src": "src/routes/bestiary/playable_species/demi-apye.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/playable_species/duarr.md": {
-    "file": "pages/bestiary/playable_species/duarr.md-141ca0e3.js",
+    "file": "pages/bestiary/playable_species/duarr.md-3b18f0d9.js",
     "src": "src/routes/bestiary/playable_species/duarr.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/playable_species/groth.md": {
-    "file": "pages/bestiary/playable_species/groth.md-27609589.js",
+    "file": "pages/bestiary/playable_species/groth.md-08d4cbee.js",
     "src": "src/routes/bestiary/playable_species/groth.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/playable_species/harj.md": {
-    "file": "pages/bestiary/playable_species/harj.md-c29ecc4d.js",
+    "file": "pages/bestiary/playable_species/harj.md-8fa1338b.js",
     "src": "src/routes/bestiary/playable_species/harj.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/bestiary/playable_species/index.md": {
-    "file": "pages/bestiary/playable_species/index.md-f061d69e.js",
+    "file": "pages/bestiary/playable_species/index.md-8d1227b7.js",
     "src": "src/routes/bestiary/playable_species/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_parentLayout-e0b94d8d.js",
+      "_parentLayout-b802f803.js",
       "_h2-264af3af.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
       "_index-eb530dc4.js",
-      "_frontMatter-278c4862.js",
+      "_frontMatter-02862a3a.js",
       "_index-3f9da881.js",
       "_Subtitle-1a680221.js"
     ]
   },
   "src/routes/bestiary/playable_species/vistime.md": {
-    "file": "pages/bestiary/playable_species/vistime.md-96fbe9f8.js",
+    "file": "pages/bestiary/playable_species/vistime.md-01907fae.js",
     "src": "src/routes/bestiary/playable_species/vistime.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/gazetteer/index.md": {
-    "file": "pages/gazetteer/index.md-31ec3c61.js",
+    "file": "pages/gazetteer/index.md-f9a58da5.js",
     "src": "src/routes/gazetteer/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_directoryPage-5ad793b7.js",
+      "_directoryPage-4ed8a95e.js",
       "_h2-264af3af.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
       "_index-eb530dc4.js",
-      "_frontMatter-278c4862.js",
+      "_frontMatter-02862a3a.js",
       "_index-3f9da881.js",
       "_Subtitle-1a680221.js"
     ]
   },
   "src/routes/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md": {
-    "file": "pages/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md-cdc80936.js",
+    "file": "pages/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md-f84b63b1.js",
     "src": "src/routes/gazetteer/polities/eastern_kingdoms/dreaming_cities/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/gazetteer/polities/eastern_kingdoms/index.md": {
-    "file": "pages/gazetteer/polities/eastern_kingdoms/index.md-d3c3346f.js",
+    "file": "pages/gazetteer/polities/eastern_kingdoms/index.md-2b2b08f7.js",
     "src": "src/routes/gazetteer/polities/eastern_kingdoms/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_directoryPage-5ad793b7.js",
+      "_directoryPage-4ed8a95e.js",
       "_h2-264af3af.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
       "_index-eb530dc4.js",
-      "_frontMatter-278c4862.js",
+      "_frontMatter-02862a3a.js",
       "_index-3f9da881.js",
       "_Subtitle-1a680221.js"
     ]
   },
   "src/routes/gazetteer/polities/eastern_kingdoms/kremyat/index.md": {
-    "file": "pages/gazetteer/polities/eastern_kingdoms/kremyat/index.md-6e250806.js",
+    "file": "pages/gazetteer/polities/eastern_kingdoms/kremyat/index.md-af8375af.js",
     "src": "src/routes/gazetteer/polities/eastern_kingdoms/kremyat/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
   "src/routes/gazetteer/polities/index.md": {
-    "file": "pages/gazetteer/polities/index.md-d9c6a536.js",
+    "file": "pages/gazetteer/polities/index.md-d8ab6099.js",
     "src": "src/routes/gazetteer/polities/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_directoryPage-5ad793b7.js",
+      "_directoryPage-4ed8a95e.js",
       "_h2-264af3af.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
       "_index-eb530dc4.js",
-      "_frontMatter-278c4862.js",
+      "_frontMatter-02862a3a.js",
       "_index-3f9da881.js",
       "_Subtitle-1a680221.js"
     ]
@@ -401,36 +409,36 @@
     ]
   },
   "src/routes/gazetteer/regions/index.md": {
-    "file": "pages/gazetteer/regions/index.md-0603c6b2.js",
+    "file": "pages/gazetteer/regions/index.md-18c4cc84.js",
     "src": "src/routes/gazetteer/regions/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_directoryPage-5ad793b7.js",
+      "_directoryPage-4ed8a95e.js",
       "_h2-264af3af.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
       "_index-eb530dc4.js",
-      "_frontMatter-278c4862.js",
+      "_frontMatter-02862a3a.js",
       "_index-3f9da881.js",
       "_Subtitle-1a680221.js"
     ]
   },
   "src/routes/gazetteer/regions/kremlands/index.md": {
-    "file": "pages/gazetteer/regions/kremlands/index.md-458e2ce8.js",
+    "file": "pages/gazetteer/regions/kremlands/index.md-7ea41818.js",
     "src": "src/routes/gazetteer/regions/kremlands/index.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
@@ -456,19 +464,153 @@
       "assets/splashBackground-1d930343.jpg"
     ]
   },
+  "src/routes/supernatural/arcane/illusionism.md": {
+    "file": "pages/supernatural/arcane/illusionism.md-1d755472.js",
+    "src": "src/routes/supernatural/arcane/illusionism.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1e5fdc5b.js",
+      "_h2-264af3af.js",
+      "_Subtitle-1a680221.js",
+      "_navigation-123b8718.js",
+      "_singletons-d1fb5791.js",
+      "_stores-b9fff6f2.js",
+      "_index-eb530dc4.js"
+    ]
+  },
+  "src/routes/supernatural/arcane/index.md": {
+    "file": "pages/supernatural/arcane/index.md-be7c5a64.js",
+    "src": "src/routes/supernatural/arcane/index.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_parentLayout-b802f803.js",
+      "_h2-264af3af.js",
+      "_stores-b9fff6f2.js",
+      "_navigation-123b8718.js",
+      "_singletons-d1fb5791.js",
+      "_index-eb530dc4.js",
+      "_frontMatter-02862a3a.js",
+      "_index-3f9da881.js",
+      "_Subtitle-1a680221.js"
+    ]
+  },
+  "src/routes/supernatural/arcane/psionicism.md": {
+    "file": "pages/supernatural/arcane/psionicism.md-9d967c98.js",
+    "src": "src/routes/supernatural/arcane/psionicism.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1e5fdc5b.js",
+      "_h2-264af3af.js",
+      "_Subtitle-1a680221.js",
+      "_navigation-123b8718.js",
+      "_singletons-d1fb5791.js",
+      "_stores-b9fff6f2.js",
+      "_index-eb530dc4.js"
+    ]
+  },
+  "src/routes/supernatural/index.md": {
+    "file": "pages/supernatural/index.md-b362e56e.js",
+    "src": "src/routes/supernatural/index.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_directoryPage-4ed8a95e.js",
+      "_h2-264af3af.js",
+      "_stores-b9fff6f2.js",
+      "_navigation-123b8718.js",
+      "_singletons-d1fb5791.js",
+      "_index-eb530dc4.js",
+      "_frontMatter-02862a3a.js",
+      "_index-3f9da881.js",
+      "_Subtitle-1a680221.js"
+    ]
+  },
+  "src/routes/supernatural/spirit hosts/bardistry.md": {
+    "file": "pages/supernatural/spirit hosts/bardistry.md-fb29c59c.js",
+    "src": "src/routes/supernatural/spirit hosts/bardistry.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1e5fdc5b.js",
+      "_h2-264af3af.js",
+      "_Subtitle-1a680221.js",
+      "_navigation-123b8718.js",
+      "_singletons-d1fb5791.js",
+      "_stores-b9fff6f2.js",
+      "_index-eb530dc4.js"
+    ]
+  },
+  "src/routes/supernatural/spirit hosts/druidism.md": {
+    "file": "pages/supernatural/spirit hosts/druidism.md-721eefe5.js",
+    "src": "src/routes/supernatural/spirit hosts/druidism.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1e5fdc5b.js",
+      "_h2-264af3af.js",
+      "_Subtitle-1a680221.js",
+      "_navigation-123b8718.js",
+      "_singletons-d1fb5791.js",
+      "_stores-b9fff6f2.js",
+      "_index-eb530dc4.js"
+    ]
+  },
+  "src/routes/supernatural/spirit hosts/index.md": {
+    "file": "pages/supernatural/spirit hosts/index.md-08da3640.js",
+    "src": "src/routes/supernatural/spirit hosts/index.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_parentLayout-b802f803.js",
+      "_h2-264af3af.js",
+      "_stores-b9fff6f2.js",
+      "_navigation-123b8718.js",
+      "_singletons-d1fb5791.js",
+      "_index-eb530dc4.js",
+      "_frontMatter-02862a3a.js",
+      "_index-3f9da881.js",
+      "_Subtitle-1a680221.js"
+    ]
+  },
+  "src/routes/supernatural/spirit hosts/witchcraft.md": {
+    "file": "pages/supernatural/spirit hosts/witchcraft.md-559bb633.js",
+    "src": "src/routes/supernatural/spirit hosts/witchcraft.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-fb5fb875.js",
+      "_soloPageLayout-1e5fdc5b.js",
+      "_h2-264af3af.js",
+      "_Subtitle-1a680221.js",
+      "_navigation-123b8718.js",
+      "_singletons-d1fb5791.js",
+      "_stores-b9fff6f2.js",
+      "_index-eb530dc4.js"
+    ]
+  },
   "src/routes/world.md": {
-    "file": "pages/world.md-e9d7b615.js",
+    "file": "pages/world.md-37768773.js",
     "src": "src/routes/world.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb5fb875.js",
-      "_soloPageLayout-f3850c9e.js",
+      "_soloPageLayout-1e5fdc5b.js",
       "_h2-264af3af.js",
       "_Subtitle-1a680221.js",
       "_navigation-123b8718.js",
       "_singletons-d1fb5791.js",
-      "_stores-a41f886f.js",
+      "_stores-b9fff6f2.js",
       "_index-eb530dc4.js"
     ]
   },
@@ -498,12 +640,12 @@
       "_singletons-d1fb5791.js"
     ]
   },
-  "_soloPageLayout-f3850c9e.js": {
-    "file": "chunks/soloPageLayout-f3850c9e.js",
+  "_soloPageLayout-1e5fdc5b.js": {
+    "file": "chunks/soloPageLayout-1e5fdc5b.js",
     "imports": [
       "_index-fb5fb875.js",
       "_Subtitle-1a680221.js",
-      "_stores-a41f886f.js"
+      "_stores-b9fff6f2.js"
     ]
   },
   "_h2-264af3af.js": {
@@ -519,26 +661,26 @@
       "_navigation-123b8718.js"
     ]
   },
-  "_stores-a41f886f.js": {
-    "file": "chunks/stores-a41f886f.js",
+  "_stores-b9fff6f2.js": {
+    "file": "chunks/stores-b9fff6f2.js",
     "imports": [
       "_index-fb5fb875.js",
       "_navigation-123b8718.js",
       "_index-eb530dc4.js"
     ]
   },
-  "_directoryPage-5ad793b7.js": {
-    "file": "chunks/directoryPage-5ad793b7.js",
+  "_directoryPage-4ed8a95e.js": {
+    "file": "chunks/directoryPage-4ed8a95e.js",
     "imports": [
       "_index-fb5fb875.js",
-      "_stores-a41f886f.js",
-      "_frontMatter-278c4862.js",
+      "_stores-b9fff6f2.js",
+      "_frontMatter-02862a3a.js",
       "_Subtitle-1a680221.js",
       "_index-3f9da881.js"
     ]
   },
-  "_frontMatter-278c4862.js": {
-    "file": "chunks/frontMatter-278c4862.js",
+  "_frontMatter-02862a3a.js": {
+    "file": "chunks/frontMatter-02862a3a.js",
     "imports": [
       "_index-fb5fb875.js",
       "_navigation-123b8718.js",
@@ -552,12 +694,12 @@
       "_navigation-123b8718.js"
     ]
   },
-  "_parentLayout-e0b94d8d.js": {
-    "file": "chunks/parentLayout-e0b94d8d.js",
+  "_parentLayout-b802f803.js": {
+    "file": "chunks/parentLayout-b802f803.js",
     "imports": [
       "_index-fb5fb875.js",
-      "_stores-a41f886f.js",
-      "_frontMatter-278c4862.js",
+      "_stores-b9fff6f2.js",
+      "_frontMatter-02862a3a.js",
       "_Subtitle-1a680221.js",
       "_index-3f9da881.js"
     ]
